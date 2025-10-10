@@ -5,34 +5,6 @@
 
 This document outlines the technology stack, coding standards, file organization, testing strategies, security practices, performance guidelines, and contribution workflows for the **Equilibria Cognitive Concierge** project (repo: `webapp`). These rules ensure a consistent, maintainable, and production-grade codebase optimized for AI-assisted development within the **Dyad.sh** environment. All AI-generated code must strictly adhere to these guidelines. Deviations require explicit justification in pull request (PR) descriptions.
 
-### **SUPREME DIRECTIVE: The Protocol for All Development Tasks**
-
-**This is the first and most important rule. It must be followed for every development request.**
-
-All development work on this project is governed by the official **Product Requirements Document (PRD)**, located at `/docs/PRD.md`. This document is the **single source of truth** for all features, user journeys, and functional requirements.
-
-For every new development task, the AI must begin its process by following this exact protocol:
-
-1.  **Acknowledge the Source of Truth:** State that you are referencing the PRD at `/docs/PRD.md`.
-2.  **Read the Relevant Sections:** Your first action is to open and read the specific sections of the PRD that are relevant to the requested task. Do not proceed from memory.
-3.  **State Your Plan:** Before writing any code, you must provide a clear, step-by-step plan of action that outlines which components you will create or modify to fulfill the requirements from the PRD.
-4.  **Execute Adherence:** All forged code must strictly adhere to both the functional requirements of the PRD and the technical standards defined in this `AI_RULES.md` document.
-
-**Example Prompt Structure:**
-
-> **User (Architect):** "My supreme mandate is to forge the `[Feature Name]` feature."
->
-> **AI (You):** "Acknowledged. The single source of truth is `/docs/PRD.md`. I will now read sections `[#.#]` and `[#.#]` to gather the requirements.
->
-> My plan is as follows:
-> 1.  I will create a new component named `[ComponentName]`.
-> 2.  I will modify the `[ExistingComponent]` to integrate the new feature.
-> 3.  I will adhere to the `shadcn/ui` and `TanStack Query` patterns as defined in the `AI_RULES`.
->
-> Proceeding with code generation now..."
-
-This protocol is non-negotiable.
-
 ### **Dyad-Specific Workflow Guidelines**
 
 This project is developed exclusively within the Dyad AI-driven environment. **There is no terminal or CLI access.** All development operations are performed through the Dyad UI. The AI must understand and generate instructions compatible with this workflow.
