@@ -27,11 +27,11 @@ Our entire testing strategy is based on the "Testing Pyramid," a standard indust
 -   **Integration Tests (Middle Layer):** These tests verify that several units work together correctly. For us, this primarily means testing a React component to ensure it renders and behaves correctly when a user interacts with it.
 -   **End-to-End (E2E) Tests (Top Layer):** These are broad tests that simulate a complete user journey in a real browser, verifying that the entire system—frontend, backend, and database—works together as a whole.
 
-## 3.0 Unit Testing (Vitest): The Foundation
+## 3.0 Unit Testing (Jest): The Foundation
 
 **Purpose:** To verify the correctness of our business logic in isolation.
 
-**Tool:** **Vitest**
+**Tool:** **Jest**
 
 **What to Test:**
 
