@@ -36,7 +36,7 @@ This template provides the complete, copy-and-paste-ready starting point for any
 
 ### **Template Example: A `Badge` Component**
 
-```tsx
+```
 // 1. Start with the 'use client' directive if the component has interactivity or uses hooks.
 'use client';
 
@@ -97,3 +97,4 @@ Badge.displayName = 'Badge';
 
 // 7. Export the component and its props interface.
 export { Badge, badgeVariants };
+```
