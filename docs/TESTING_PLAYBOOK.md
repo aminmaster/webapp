@@ -17,9 +17,9 @@ Our entire testing strategy is based on the "Testing Pyramid," a standard indust
       / \
      /   \     <-- E2E Tests (Playwright) - Few, Broad, Slow
     /-----\
-   /       \   <-- Integration Tests (Vitest) - More, Focused  
+   /       \   <-- Integration Tests (Jest) - More, Focused  
   /---------\
- /           \ <-- Unit Tests (Vitest) - Many, Small, Fast  
+ /           \ <-- Unit Tests (Jest) - Many, Small, Fast  
 /-------------\
 ```
 
