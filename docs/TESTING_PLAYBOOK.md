@@ -45,9 +45,9 @@ Our entire testing strategy is based on the "Testing Pyramid," a standard indust
     *   The native `fetch` API (e.g., using MSW or `vi.fn()`).
     *   Browser APIs like `localStorage` or `SpeechRecognition`.
 
-**Prompting Guide:** Use the `02 - Hook: New Custom React Hook` prompt from our library to request a new hook, and then use the `03 - Test: New Unit/Integration Test (Vitest)` prompt to generate its corresponding test file.
+**Prompting Guide:** Use the `02 - Hook: New Custom React Hook` prompt from our library to request a new hook, and then use the `03 - Test: New Unit/Integration Test (Jest)` prompt to generate its corresponding test file.
 
-## 4.0 Integration Testing (Vitest & React Testing Library): Verifying Components
+## 4.0 Integration Testing (Jest & React Testing Library): Verifying Components
 
 **Purpose:** To verify that our React components render correctly and respond to user interaction as expected.
 
