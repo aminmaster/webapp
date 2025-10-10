@@ -193,7 +193,7 @@ Adhere strictly to the following file structure:
 
 **10. Testing Strategy**
 
-*   **Unit & Integration Tests**: Use **Jest**. All new hooks and complex utility functions must have unit tests with at least 85% coverage. Components should be tested with Vitest and React Testing Library. Mock all external dependencies (Supabase, AI APIs).
+*   **Unit & Integration Tests**: Use **Jest**. All new hooks and complex utility functions must have unit tests with at least 85% coverage. Components should be tested with Jest and React Testing Library. Mock all external dependencies (Supabase, AI APIs).
 *   **End-to-End (E2E) Tests**: Use **Playwright**. All critical user journeys (anonymous onboarding, chat with RAG, admin ingestion) must be covered by E2E tests.
 *   **Accessibility**: Use `axe-core` integrated with Playwright to run automated accessibility audits in CI.
 *   **Test Files:** Co-locate test files with the source file (e.g., `useChat.hooks.ts` and `useChat.test.ts` in the same `/hooks` directory).
