@@ -51,7 +51,7 @@ Our entire testing strategy is based on the "Testing Pyramid," a standard indust
 
 **Purpose:** To verify that our React components render correctly and respond to user interaction as expected.
 
-**Tools:** **Vitest** + **React Testing Library**
+**Tools:** **Jest** + **React Testing Library**
 
 **What to Test:**
 
