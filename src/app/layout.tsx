@@ -1,18 +1,8 @@
 import type { Metadata } from "next";
-import GeistSans from "geist/font/sans";
-import GeistMono from "geist/font/mono";
 import { QueryClient, QueryClientProvider } from "@tanstack/react-query";
 import { ThemeProvider } from "next-themes";
 import { Toaster } from "@/components/ui/sonner";
 import "./globals.css";
-
-const geistSans = GeistSans({
-  variable: "--font-geist-sans",
-});
-
-const geistMono = GeistMono({
-  variable: "--font-geist-mono",
-});
 
 const queryClient = new QueryClient();
 
@@ -28,9 +18,7 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en" suppressHydrationWarning>
-      <body
-        className={`${geistSans.variable} ${geistMono.variable} antialiased`}
-      >
+      <body className="antialiased">
         <QueryClientProvider client={queryClient}>
           <ThemeProvider
             attribute="class"
