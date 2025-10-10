@@ -1,5 +1,5 @@
 import type { Metadata } from "next";
-import { GeistSans, GeistMono } from "next/font/google";
+import { GeistSans, GeistMono } from "geist/font";
 import { QueryClient, QueryClientProvider } from "@tanstack/react-query";
 import { ThemeProvider } from "next-themes";
 import { Toaster } from "@/components/ui/sonner";
